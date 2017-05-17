@@ -1,9 +1,9 @@
 import React from 'react';
 /// telling the dom to render the MamaContainer from the root
 import ReactDOM from 'react-dom';
-import MamaContainer from './MamaContainer';
+import TodoContainer from './TodoContainer';
 
 
 
 
-ReactDOM.render(<MamaContainer />, document.getElementById('root'));
+ReactDOM.render(<TodoContainer />, document.getElementById('root'));
